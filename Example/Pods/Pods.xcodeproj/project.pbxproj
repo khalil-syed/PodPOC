@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		266E3DC724DB99E60034A615 /* FrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266E3DC424DB99E50034A615 /* FrameworkViewController.swift */; };
-		266E3DC824DB99E60034A615 /* PocClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266E3DC524DB99E60034A615 /* PocClass.swift */; };
-		266E3DC924DB99E60034A615 /* FrameworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 266E3DC624DB99E60034A615 /* FrameworkViewController.xib */; };
+		266E3E0D24DD47D80034A615 /* FrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266E3E0A24DD47D80034A615 /* FrameworkViewController.swift */; };
+		266E3E0E24DD47D80034A615 /* FrameworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 266E3E0B24DD47D80034A615 /* FrameworkViewController.xib */; };
+		266E3E0F24DD47D80034A615 /* PocClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266E3E0C24DD47D80034A615 /* PocClass.swift */; };
 		430EA3C221F10C35E92361FD407B82E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		54710487DD1ABFA97C9AD7A170982323 /* Pods-PodPOC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D485A2B41CEE2369626ECBC915522 /* Pods-PodPOC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A7CAFA09B32BAE156FAB2E81AD5137C /* Pods-PodPOC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A16D0D76292AD420A381B0B9E3A64915 /* Pods-PodPOC_Example-dummy.m */; };
@@ -43,9 +43,9 @@
 		05D44FFB340F96F685DAB9F9C913BC31 /* Pods-PodPOC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodPOC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		16234E39E2A79A8A79FB705B87B23C52 /* Pods_PodPOC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodPOC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		238D677924A321C99AC748318A311099 /* Pods-PodPOC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodPOC_Example-frameworks.sh"; sourceTree = "<group>"; };
-		266E3DC424DB99E50034A615 /* FrameworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameworkViewController.swift; sourceTree = "<group>"; };
-		266E3DC524DB99E60034A615 /* PocClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PocClass.swift; sourceTree = "<group>"; };
-		266E3DC624DB99E60034A615 /* FrameworkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FrameworkViewController.xib; sourceTree = "<group>"; };
+		266E3E0A24DD47D80034A615 /* FrameworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FrameworkViewController.swift; path = PodPOC/Classes/FrameworkViewController.swift; sourceTree = "<group>"; };
+		266E3E0B24DD47D80034A615 /* FrameworkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FrameworkViewController.xib; path = PodPOC/Classes/FrameworkViewController.xib; sourceTree = "<group>"; };
+		266E3E0C24DD47D80034A615 /* PocClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PocClass.swift; path = PodPOC/Classes/PocClass.swift; sourceTree = "<group>"; };
 		2B26DF29F24BD15993C9ECA90A473273 /* Pods-PodPOC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PodPOC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2B677A537104E149E60CBBFDEBD39867 /* PodPOC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PodPOC.modulemap; sourceTree = "<group>"; };
 		2B7959BF112E7413D3B8E65C834CB253 /* Pods_PodPOC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodPOC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,6 +211,9 @@
 		EA9060F67BA7308D6AF39E785DF37432 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				266E3E0A24DD47D80034A615 /* FrameworkViewController.swift */,
+				266E3E0B24DD47D80034A615 /* FrameworkViewController.xib */,
+				266E3E0C24DD47D80034A615 /* PocClass.swift */,
 				D672F14A62A0C57F9F7DF06480B3C72A /* LICENSE */,
 				A33EFCCBA46153EA811248CC2A13B66E /* PodPOC.podspec */,
 				776BCDD00FFB4A2406C410601624B1E0 /* README.md */,
@@ -221,9 +224,6 @@
 		EF4ADA95E3C25438DEE7DEFA665D0BD2 /* PodPOC */ = {
 			isa = PBXGroup;
 			children = (
-				266E3DC424DB99E50034A615 /* FrameworkViewController.swift */,
-				266E3DC624DB99E60034A615 /* FrameworkViewController.xib */,
-				266E3DC524DB99E60034A615 /* PocClass.swift */,
 				A5A7A319794B94BE8885A51BF73DD67A /* ReplaceMe.swift */,
 				EA9060F67BA7308D6AF39E785DF37432 /* Pod */,
 				63EB2F156A3AF2C9B5D86619F9CFAD87 /* Support Files */,
@@ -352,7 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				266E3DC924DB99E60034A615 /* FrameworkViewController.xib in Resources */,
+				266E3E0E24DD47D80034A615 /* FrameworkViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,8 +378,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1F9FDAA35AC82FF555F79768975D365 /* PodPOC-dummy.m in Sources */,
-				266E3DC824DB99E60034A615 /* PocClass.swift in Sources */,
-				266E3DC724DB99E60034A615 /* FrameworkViewController.swift in Sources */,
+				266E3E0F24DD47D80034A615 /* PocClass.swift in Sources */,
+				266E3E0D24DD47D80034A615 /* FrameworkViewController.swift in Sources */,
 				E96455192E2427CA50D598573EA26B2F /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
