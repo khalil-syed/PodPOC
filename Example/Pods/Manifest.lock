@@ -1,5 +1,5 @@
 PODS:
-  - PodPOC (0.1.0)
+  - PodPOC (0.1.1)
 
 DEPENDENCIES:
   - PodPOC (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PodPOC: 4d62f3b2ec71052da522670010edcd263c86c9a4
+  PodPOC: 393a0115e17a66df9caec261687f544bde9b16e0
 
 PODFILE CHECKSUM: 235ec3be73adfee1508a6c7976643a8cbbf3ab89
 
