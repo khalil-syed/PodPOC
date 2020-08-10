@@ -32,7 +32,7 @@ This is a POC Pod. The idea is to test the pod integration for sharing code amon
   s.swift_versions   = '5.0'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'PodPOC/Classes/**/*'
 
